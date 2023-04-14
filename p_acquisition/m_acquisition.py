@@ -10,8 +10,10 @@ def acquire_1():
     pulls_response_1 = requests.get(end_point_1 + body_1)
     pulls_json_1 = pulls_response_1.json()
     df_col_pub = pd.json_normalize(pulls_json_1, ['@graph'])
+    df_col_pub.to_csv('./data/raw_acquire_1.csv')
     return df_col_pub
 
 def acquire_2():
-    bicimad_stations = pd.read_csv('../data/bicimad_stations.csv')
+    bicimad_stations = pd.read_csv('./data/bicimad_stations.csv')
+    bicimad_stations.to_csv('./data/raw_acquire_2.csv')
     return bicimad_stations
