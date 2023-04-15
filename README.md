@@ -59,7 +59,6 @@ BiciMAD SCHOOL provides information with two options:
     └── .gitignore
     └── README.md
     └── main.py
-    └── my-image.gif
 
 ```
 ### :love_letter: **CONTACT INFO**
