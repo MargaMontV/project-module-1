@@ -28,8 +28,7 @@ if __name__ == '__main__':
         nearest_bicimad_cp_1 = mwr.concatenate(df_col_pub_6, bicimad_stations_3)
         man.get_csv(nearest_bicimad_cp_1)
         print("You can find your file in the data folder")
-    else:
-        lugar = argument_parser().place != "all"        
+    else:      
         df_col_pub_a = mac.acquire_1()
         bicimad_stations_a = mac.acquire_2()
         df_col_pub_b = mwr.wrangling_1(df_col_pub_a)
@@ -39,7 +38,7 @@ if __name__ == '__main__':
         bicimad_stations_3 = mwr.drop_columns(all_closest_stations_2)
         df_col_pub_6 = mwr.drop_columns_2(df_col_pub_b)
         nearest_bicimad_cp_1 = mwr.concatenate(df_col_pub_6, bicimad_stations_3)
-        table_for_user = nearest_bicimad_cp_1[nearest_bicimad_cp_1[lugar] == argument_parser().place]
+        table_for_user = nearest_bicimad_cp_1[nearest_bicimad_cp_1['lugar'] == argument_parser().place]
         table_for_user.to_csv('./data/specific_bicimad_st.csv', index=False, encoding='utf-8')
         print("You can find your file in the data folder")
     
