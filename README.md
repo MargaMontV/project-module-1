@@ -5,7 +5,7 @@ Ironhack Madrid - Data Analytics Part Time - Feb 2023 - Project Module 1
 ![](my-image.gif)
 BiciMAD SCHOOL the app for finding Bike stations near to your school in Madrid.
 
-# :information_source: **INTRODUCTION**
+### :information_source: **INTRODUCTION**
 Do you want to ride from your school to any place? BiciMAD SCHOOL is your adventurous buddy. 
 This app is created specifically for students lovers of riding a bike. Do you want to go to the library? Going to de-stress in a park? Enjoy the city colaborating with the environment? BiciMAD SCHOOL is your to go app.
 
@@ -16,13 +16,13 @@ BiciMAD SCHOOL provides information with two options:
 * Gives you the possibility of writing the public school and it will return the location of the closest BiciMAD Station.
 - Further updates are expected
 
-# :bulb: **OUTPUT**
+### :bulb: **OUTPUT**
 * CSV file with all colegios públicos and the nearest BICIMAD station.
 * CSV file with the nearest BICIMAD station to a specific colegio público.
 
 ![](cp.jpg)
 
-# :computer: **TECHNOLOGY STACK**
+### :computer: **TECHNOLOGY STACK**
 * Python 
 * SQL
 * API Rest
@@ -35,7 +35,7 @@ BiciMAD SCHOOL provides information with two options:
 * Visual Studio Code
 * Argparse
 
-# :file_folder: **FOLDER STRUCTURE**
+### :file_folder: **FOLDER STRUCTURE**
 ```
 └── project
     ├── data
@@ -61,9 +61,6 @@ BiciMAD SCHOOL provides information with two options:
     └── main.py
     └── my-image.gif
 
-# :wrench: **CONFIGURAT**
-
-### :love_letter: **Contact info**
-[LinkedIn](https://www.linkedin.com/in/margarita-montenegro-data-analyst/)
-
 ```
+### :love_letter: **CONTACT INFO**
+[LinkedIn](https://www.linkedin.com/in/margarita-montenegro-data-analyst/)
