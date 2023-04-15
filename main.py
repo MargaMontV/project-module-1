@@ -8,7 +8,7 @@ from p_analysis import m_analysis as man
 def argument_parser():
     parser = argparse.ArgumentParser(description= 'Find the nearest BiciMAD station to Colegios Públicos')
     help_message ='Use option "all" to get the full table for nearest BiciMAD stations to Colegios Públicos. \
-        Use option "not_all" to specify the name of the colegio público.\
+        Use option "Name of the colegio público" to specify the name of the colegio público.\
             You will get a table with the nearest BiciMad station to that colegio público.'
     parser.add_argument('-p', '--place', help=help_message, type=str)
     args = parser.parse_args()
