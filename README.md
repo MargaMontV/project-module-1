@@ -1,4 +1,4 @@
-# project-module-1
+## project-module-1
 Ironhack Madrid - Data Analytics Part Time - Feb 2023 - Project Module 1
 
 # :raising_hand: **BiciMAD SCHOOL**
@@ -59,7 +59,6 @@ BiciMAD SCHOOL provides information with two options:
     └── .gitignore
     └── README.md
     └── main.py
-
 ```
 ### :love_letter: **CONTACT INFO**
 [LinkedIn](https://www.linkedin.com/in/margarita-montenegro-data-analyst/)
